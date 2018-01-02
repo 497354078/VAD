@@ -1,0 +1,50 @@
+101 - Dog ESC50_002
+102 - Rooster ESC50_014
+103 - Pig ESC50_008
+104 - Cow ESC50_021
+105 - Frog ESC50_006
+106 - Cat ESC50_046
+107 - Hen ESC50_036
+108 - Insects ESC50_023
+109 - Sheep ESC50_004
+110 - Crow ESC50_038
+201 - Rain ESC50_027
+202 - Sea waves ESC50_001
+203 - Crackling fire ESC50_031
+204 - Crickets ESC50_044
+205 - Chirping birds ESC50_025
+206 - Water drops ESC50_012
+207 - Wind ESC50_035
+208 - Pouring water ESC50_048
+209 - Toilet flush ESC50_017
+210 - Thunderstorm ESC50_020
+301 - Crying baby ESC50_015
+302 - Sneezing ESC50_045
+303 - Clapping ESC50_033
+304 - Breathing ESC50_041
+305 - Coughing ESC50_013
+306 - Footsteps ESC50_030
+307 - Laughing ESC50_037
+308 - Brushing teeth ESC50_047
+309 - Snoring ESC50_042
+310 - Drinking - sipping ESC50_005
+401 - Door knock ESC50_003
+402 - Mouse click ESC50_024
+403 - Keyboard typing ESC50_039
+404 - Door - wood creaks ESC50_000
+405 - Can opening ESC50_026
+406 - Washing machine ESC50_019
+407 - Vacuum cleaner ESC50_040
+408 - Clock alarm ESC50_043
+409 - Clock tick ESC50_022
+410 - Glass breaking ESC50_032
+501 - Helicopter ESC50_009
+502 - Chainsaw ESC50_018
+503 - Siren ESC50_011
+504 - Car horn ESC50_010
+505 - Engine ESC50_034
+506 - Train ESC50_016
+507 - Church bells ESC50_029
+508 - Airplane ESC50_007
+509 - Fireworks ESC50_049
+510 - Hand saw ESC50_028

@@ -1,0 +1,8 @@
+# compute-vad --config=conf/vad.conf scp:../files_ESC50/split4/1/feats.scp ark,scp:/home/lj/work/project/2017-11-24/Module/tools/../vad_ESC50/vad_files_ESC50.1.ark,/home/lj/work/project/2017-11-24/Module/tools/../vad_ESC50/vad_files_ESC50.1.scp 
+# Started at Mon Jan  1 17:00:46 CST 2018
+#
+compute-vad --config=conf/vad.conf scp:../files_ESC50/split4/1/feats.scp ark,scp:/home/lj/work/project/2017-11-24/Module/tools/../vad_ESC50/vad_files_ESC50.1.ark,/home/lj/work/project/2017-11-24/Module/tools/../vad_ESC50/vad_files_ESC50.1.scp 
+LOG (compute-vad[5.2.137-9a6e1]:main():compute-vad.cc:95) Applied energy based voice activity detection; processed 520 utterances successfully; 0 had empty features, and 0 were completely unvoiced.
+LOG (compute-vad[5.2.137-9a6e1]:main():compute-vad.cc:99) Proportion of voiced frames was 0.839173 over 260000 frames.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon Jan  1 17:00:46 CST 2018, elapsed time 0 seconds

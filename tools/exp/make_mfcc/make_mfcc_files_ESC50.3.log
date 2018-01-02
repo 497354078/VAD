@@ -1,0 +1,559 @@
+# compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/wav_files_ESC50.3.scp ark:- | copy-feats --compress=true ark:- ark,scp:/home/lj/work/project/2017-11-24/Module/tools/../mfcc_ESC50/raw_mfcc_files_ESC50.3.ark,/home/lj/work/project/2017-11-24/Module/tools/../mfcc_ESC50/raw_mfcc_files_ESC50.3.scp 
+# Started at Mon Jan  1 16:59:47 CST 2018
+#
+copy-feats --compress=true ark:- ark,scp:/home/lj/work/project/2017-11-24/Module/tools/../mfcc_ESC50/raw_mfcc_files_ESC50.3.ark,/home/lj/work/project/2017-11-24/Module/tools/../mfcc_ESC50/raw_mfcc_files_ESC50.3.scp 
+compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/wav_files_ESC50.3.scp ark:- 
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0000
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0001
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0002
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0003
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0004
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0005
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0006
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0007
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0008
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0009
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0010
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0011
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0012
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0013
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0014
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0015
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0016
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0017
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0018
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0019
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0020
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0021
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0022
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0023
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0024
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0025
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0026
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0027
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0028
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 30 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0029
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0030
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0031
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0032
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0033
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0034
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0035
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0036
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0037
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0038
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 40 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_025U0039
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0000
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0001
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0002
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0003
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0004
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0005
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0006
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0007
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0008
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 50 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0009
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0010
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0011
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0012
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0013
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0014
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0015
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0016
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0017
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0018
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 60 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0019
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0020
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0021
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0022
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0023
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0024
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0025
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0026
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0027
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0028
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 70 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0029
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0030
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0031
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0032
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0033
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0034
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0035
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0036
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0037
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0038
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 80 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_026U0039
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0000
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0001
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0002
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0003
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0004
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0005
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0006
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0007
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0008
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 90 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0009
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0010
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0011
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0012
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0013
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0014
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0015
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0016
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0017
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0018
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 100 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0019
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0020
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0021
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0022
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0023
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0024
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0025
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0026
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0027
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0028
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 110 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0029
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0030
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0031
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0032
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0033
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0034
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0035
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0036
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0037
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0038
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 120 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_027U0039
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0000
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0001
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0002
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0003
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0004
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0005
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0006
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0007
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0008
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 130 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0009
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0010
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0011
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0012
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0013
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0014
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0015
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0016
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0017
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0018
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 140 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0019
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0020
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0021
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0022
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0023
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0024
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0025
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0026
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0027
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0028
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 150 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0029
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0030
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0031
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0032
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0033
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0034
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0035
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0036
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0037
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0038
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 160 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_028U0039
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0000
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0001
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0002
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0003
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0004
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0005
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0006
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0007
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0008
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 170 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0009
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0010
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0011
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0012
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0013
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0014
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0015
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0016
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0017
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0018
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 180 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0019
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0020
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0021
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0022
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0023
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0024
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0025
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0026
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0027
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0028
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 190 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0029
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0030
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0031
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0032
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0033
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0034
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0035
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0036
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0037
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0038
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 200 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_029U0039
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0000
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0001
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0002
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0003
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0004
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0005
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0006
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0007
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0008
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 210 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0009
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0010
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0011
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0012
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0013
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0014
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0015
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0016
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0017
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0018
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 220 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0019
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0020
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0021
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0022
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0023
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0024
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0025
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0026
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0027
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0028
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 230 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0029
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0030
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0031
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0032
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0033
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0034
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0035
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0036
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0037
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0038
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 240 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_030U0039
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0000
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0001
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0002
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0003
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0004
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0005
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0006
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0007
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0008
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 250 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0009
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0010
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0011
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0012
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0013
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0014
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0015
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0016
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0017
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0018
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 260 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0019
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0020
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0021
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0022
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0023
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0024
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0025
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0026
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0027
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0028
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 270 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0029
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0030
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0031
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0032
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0033
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0034
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0035
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0036
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0037
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0038
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 280 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_031U0039
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0000
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0001
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0002
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0003
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0004
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0005
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0006
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0007
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0008
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 290 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0009
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0010
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0011
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0012
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0013
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0014
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0015
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0016
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0017
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0018
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 300 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0019
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0020
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0021
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0022
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0023
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0024
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0025
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0026
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0027
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0028
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 310 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0029
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0030
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0031
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0032
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0033
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0034
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0035
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0036
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0037
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0038
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 320 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_032U0039
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0000
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0001
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0002
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0003
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0004
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0005
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0006
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0007
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0008
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 330 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0009
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0010
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0011
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0012
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0013
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0014
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0015
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0016
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0017
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0018
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 340 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0019
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0020
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0021
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0022
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0023
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0024
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0025
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0026
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0027
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0028
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 350 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0029
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0030
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0031
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0032
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0033
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0034
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0035
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0036
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0037
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0038
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 360 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_033U0039
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0000
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0001
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0002
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0003
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0004
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0005
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0006
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0007
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0008
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 370 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0009
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0010
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0011
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0012
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0013
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0014
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0015
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0016
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0017
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0018
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 380 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0019
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0020
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0021
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0022
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0023
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0024
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0025
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0026
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0027
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0028
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 390 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0029
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0030
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0031
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0032
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0033
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0034
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0035
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0036
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0037
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0038
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 400 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_034U0039
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0000
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0001
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0002
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0003
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0004
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0005
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0006
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0007
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0008
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 410 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0009
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0010
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0011
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0012
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0013
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0014
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0015
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0016
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0017
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0018
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 420 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0019
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0020
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0021
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0022
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0023
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0024
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0025
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0026
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0027
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0028
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 430 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0029
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0030
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0031
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0032
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0033
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0034
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0035
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0036
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0037
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0038
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 440 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_035U0039
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0000
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0001
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0002
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0003
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0004
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0005
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0006
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0007
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0008
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 450 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0009
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0010
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0011
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0012
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0013
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0014
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0015
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0016
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0017
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0018
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 460 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0019
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0020
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0021
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0022
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0023
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0024
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0025
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0026
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0027
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0028
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 470 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0029
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0030
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0031
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0032
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0033
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0034
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0035
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0036
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0037
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0038
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 480 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_036U0039
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_037U0000
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_037U0001
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_037U0002
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_037U0003
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_037U0004
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_037U0005
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_037U0006
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_037U0007
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_037U0008
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 490 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_037U0009
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_037U0010
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_037U0011
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_037U0012
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_037U0013
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_037U0014
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_037U0015
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_037U0016
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_037U0017
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_037U0018
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:172) Processed 500 utterances
+VLOG[2] (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:173) Processed features for key ESC50_037U0019
+LOG (compute-mfcc-feats[5.2.137-9a6e1]:main():compute-mfcc-feats.cc:176)  Done 500 out of 500 utterances.
+LOG (copy-feats[5.2.137-9a6e1]:main():copy-feats.cc:143) Copied 500 feature matrices.
+# Accounting: time=56 threads=1
+# Ended (code 0) at Mon Jan  1 17:00:43 CST 2018, elapsed time 56 seconds
